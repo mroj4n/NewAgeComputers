@@ -1,0 +1,27 @@
+<app-not-found [visible]="!item.id" notFoundMessage="Page not found!" resetLinkText="Go to Home Page"></app-not-found>
+<div *ngIf="item.id" class="container">
+  <img [src]="item.imageUrl" [alt]="item.name"/>
+
+  <div class="details">
+    <div class="header">
+      <span class="name">
+        {{item.name}}
+      </span>
+    </div>
+
+    <div class="tags">
+      <a *ngFor="let tag of item.tags" routerLink="/tag/{{tag}}">
+        {{tag}}
+      </a>
+    </div>
+
+    <div class="price">
+      <span>
+        {{item.price | currency}}
+      </span>
+    </div>
+
+    <button (click)="addToCart()">Add To Cart</button>
+
+  </div>
+</div>
