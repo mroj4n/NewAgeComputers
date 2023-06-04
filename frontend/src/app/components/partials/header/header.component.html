@@ -3,18 +3,18 @@
     <a routerLink="/" class="Logo">New Age Computers</a>
     <nav>
       <ul>
-        <li>
+        <li *ngIf="!isLoggedIn">
           <a routerLink="/login">Login</a>
         </li>
-        <li class="menu-container">
-          <a routerLink="/dashboard">User</a>
+        <li *ngIf="isLoggedIn" class="menu-container">
+          <a routerLink="/dashboard">{{user.name}}</a>
           <div class="menu">
             <a routerLink="/Profile">Profile</a>
             <a routerLink="/Orders">Orders</a>
-            <a routerLink="/Logout">Logout</a>
+            <a (click)="logout()">Logout</a>
           </div>
         </li>
-        <li>
+        <li *ngIf="isLoggedIn">
           <a routerLink="/cart">
             Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span>
           </a>

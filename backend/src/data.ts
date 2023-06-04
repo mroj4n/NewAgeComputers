@@ -48,3 +48,20 @@ export const sample_tags:any[]= [
   {name:'processor',count:4},
   {name:'motherboard',count:1}
 ]
+
+export const sample_users: any[] = [
+  {
+    name: "Em Dy",
+    email: "emdy@gmail.com",
+    password: "12345",
+    address: "Kuwait farwaniya",
+    isAdmin: true,
+  },
+  {
+    name: "Adam Smith",
+    email: "asm@gmail.com",
+    password: "12345",
+    address: "China",
+    isAdmin: false,
+  },
+];
