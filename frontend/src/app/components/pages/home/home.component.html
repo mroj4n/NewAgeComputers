@@ -12,9 +12,12 @@
         </div>
         <div class="product-item-footer">
           <div class="specification">
-            <span *ngFor="let specification of item.specification">
-              {{specification}}
-            </span>
+            <ng-container *ngIf="item.specification">
+              <span *ngFor="let specification of item.specification.slice(0, 3)">
+                {{specification}}
+              </span>
+              <span *ngIf="item.specification.length > 3">...</span>
+            </ng-container>
           </div>
         </div>
         <div class="Price">

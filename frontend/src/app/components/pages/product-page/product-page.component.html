@@ -23,5 +23,13 @@
 
     <button (click)="addToCart()">Add To Cart</button>
 
+    <div class="specification">
+      <span>Specification:</span>
+      <span></span>
+      <a *ngFor="let specification of item.specification" >
+        {{specification}},
+      </a>
+    </div>
+
   </div>
 </div>

@@ -41,6 +41,7 @@ li a img{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
 }
 
 .specification{
@@ -58,7 +59,7 @@ li a img{
   margin-top: 0.2rem;
 }
 
-.price{
+.Price{
   position: absolute;
   bottom: 0;
   left: 0.9rem;
@@ -66,5 +67,6 @@ li a img{
   padding: 0.3rem 100% 0 0;
   color: #414141;
   margin-top: 0.7rem;
+  border-bottom: 1rem;
   font-size: 1.1rem;
 }

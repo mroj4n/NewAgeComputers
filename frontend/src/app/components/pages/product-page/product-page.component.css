@@ -44,6 +44,33 @@ img{
   flex-wrap: wrap;
 }
 
+.specification{
+  margin-top: 1rem;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.7rem;
+  background-color: rgb(224, 208, 208);
+  float: left;
+}
+
+.specification span{
+    color:#3e0000;
+    display:block;
+    float:left;
+    margin:10px 10px 0 0;
+    padding:5px 10px;
+    font-weight: 500;
+
+}
+.specification a{
+  color: maroon;
+  margin: 0.2rem 0.15rem;
+  padding: 0.3rem 1rem;
+  margin: 0.2rem 0.15rem;
+  font-weight: 200;
+}
+
 .tags a{
   background-color: #f0f0f0;
   padding: 0.3rem 1rem;

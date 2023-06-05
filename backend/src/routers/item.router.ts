@@ -30,8 +30,8 @@ router.get(
 router.get(
   "/search/:searchTerm",
   asynceHandler(async (req, res) => {
-    const searchRegEx = new RegExp(req.params.searchTerm, "i");
-    const items = await ItemModel.find({ name: { regex: searchRegEx } });
+    const searchRegex = new RegExp(req.params.searchTerm, "i");
+    const items = await ItemModel.find({name: {$regex:searchRegex}});
     res.send(items);
   })
 );
