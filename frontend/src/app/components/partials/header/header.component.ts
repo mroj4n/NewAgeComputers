@@ -26,6 +26,6 @@ export class HeaderComponent {
   }
 
   get isLoggedIn(){
-    return this.user.token;
+    return this.user.id;
   }
 }

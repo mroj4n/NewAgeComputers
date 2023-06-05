@@ -60,7 +60,7 @@ Settled on Angular JS + NodeJS + Express + MongoDB
         Add html
         Add css
 
-Cart Page
+Cart Page **[Done]** 
 
     1. Create CartItem Model
     2. Create Cart Model Cart service
@@ -86,7 +86,7 @@ Cart Page
 
 ##  Backend
 
-Connect To Backend
+Connect To Backend **[Done]** 
 
     1.  Create backend folder
     2.  npm init
@@ -103,7 +103,7 @@ Connect To Backend
     11. Add HttpClient module
     12. Update item service
 
-Login Page
+Login Page **[Done]** 
 
     1.  Generate Component
         1.  Add to routes
@@ -132,14 +132,14 @@ Login Page
            1. Add to Header
 
 
-Make Components For Login Page
+Make Components For Login Page **[Done]** 
 
     1. Input Container
     2. Input Validation
     3. Text Input
     4. Default Button
 
-Connect Login API To MongoDB Atlas
+Connect Login API To MongoDB Atlas **[Done]** 
 
     1. Moving Apis into routers
     2. Create MongoDB Atlas
@@ -153,7 +153,7 @@ Connect Login API To MongoDB Atlas
     6. Use MongoDB instead of data.ts in apis
 
 
-Register User
+Register User **[Done]** 
 
     1.  Add Register api
     2.  Add Register service method
@@ -161,7 +161,7 @@ Register User
     4.  Add Register Component
 
 
-Loading!
+Loading! **[Done]** 
 
     1.  Add Image 
     2.  Add Component
@@ -171,7 +171,7 @@ Loading!
 
 
 
-Checkout Page
+Checkout Page **[Done]** 
 
     1.  Create Order Model
     2.  Create Checkout Page Component
